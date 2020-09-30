@@ -8,6 +8,27 @@ body {
     background-color: #d9dcd6;
 }
 
+/* utility classes */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* end utility classes */
+
 /* Header */
 
 header {
@@ -22,7 +43,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header span {
     color: #d9dcd6;
 }
 /* end head */
@@ -82,25 +103,6 @@ nav ul li {
 .articles h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 /*end articles */
 
